@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InteractivePrice</title>
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewbox="0 0 1440 449"><path fill-rule="evenodd" d="M0 0h1440v449H191.5C85.737 449 0 363.263 0 257.5V0z"/></svg>
+        <div class="main-content">
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sing-up for our 30-day trial. No credit card required.</p>
+            <form>
+                <div class="pageview-price">
+                    <p class="first"><span class="pageview">10K</span><span class="pageviews">PAGEVIEWS</span></p>
+                    <p class="second"><span class="price">$8.00</span><span class="month">/ month</span></p>
+                </div>
+                <div class="slider">
+                    <input type="range" min="0" max="4" step="1" value="0" id="slider">
+                </div>
+                <div class="toggle">
+                    <span>Monthly Billing</span>
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slideros round"></span>
+                        </label>
+                    </div>
+                    <span>Yearly Billing</span>
+                    <div>
+                        <span class="discount">25% discount</span>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <div class="list-button">
+                    <ul>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>Unlimited websites</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>100% data ownership</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>Email reports</li>
+                    </ul>
+                    <button type="submit">Start my trial</button>
+                </div>
+            </form>
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 146 145"><g fill="none" fill-rule="evenodd" stroke="#CFD8EF"><circle cx="63" cy="82" r="62.5"/><circle cx="105" cy="41" r="40.5"/></g></svg>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
